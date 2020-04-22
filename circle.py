@@ -5,7 +5,7 @@ Created on Wed Apr 22 19:04:25 2020
 @author: bhara_5sejtsc
 """
 
-def areasphere(r): 
+def volumesphere(r): 
 	return ((4/3) * 3.14 * r * r * r) 
 
 def surfaceareasphere(r): 
@@ -14,7 +14,7 @@ def surfaceareasphere(r):
 
 r = int(input("radius = "));
 
-print ("Area = ", areasphere(r)) 
-print ("Perimeter = ", surfaceareasphere(r)) 
+print ("Volume = ", areasphere(r)) 
+print ("Surface area = ", surfaceareasphere(r)) 
 
 
