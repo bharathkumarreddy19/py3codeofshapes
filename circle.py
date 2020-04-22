@@ -5,16 +5,16 @@ Created on Wed Apr 22 19:04:25 2020
 @author: bhara_5sejtsc
 """
 
-def volumesphere(r): 
-	return ((4/3) * 3.14 * r * r * r) 
+def areacircle(r): 
+	return (3.14 * r * r) 
 
-def surfaceareasphere(r): 
-	return (4 * 3.14 * r * r) 
+def perimetercircle(r): 
+	return (2 * 3.14 * r) 
 
 
 r = int(input("radius = "));
 
-print ("Volume = ", areasphere(r)) 
-print ("Surface area = ", surfaceareasphere(r)) 
+print ("Area = ", areacircle(r)) 
+print ("perimeter = ", perimetercircle(r)) 
 
 
