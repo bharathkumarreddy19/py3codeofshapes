@@ -17,5 +17,5 @@ r = int(input("radius = "));
 h = int(input("heught = "));
 s = int(input("slant height = ")); 
 
-print ("Area = ", volumecone(r,h)) 
-print ("Perimeter = ", surfaceareacone(r,s)) 
+print ("Volume of cone = ", volumecone(r,h)) 
+print ("Surfacearea = ", surfaceareacone(r,s)) 
